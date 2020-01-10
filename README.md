@@ -7,7 +7,6 @@ For testing purposes the 32-bit Windows is needed.
 This project is developed for the Operating Systems 1 class, School of Electrical Engineering, University of Belgrade.
 
 
-How to use OS kernel: 
-    1. Implement function userMain(argc, argv) in your user code, this is the main entry point for your application, arguments are passed from command line.
-
-   2.  Create other user threads by extending OS class thread. You can specify thread name, thread stack size and time slice (minimum run time before thread can be interrupted). Implement custom thread code inside run method. Start thread by calling start method, thread will be started and run will be called on thread selection that depends on scheduler.
+How to use OS kernel: <br/>
+     Implement function userMain(argc, argv) in your user code, this is the main entry point for your application, arguments are passed from command line. <br/>
+     Create other user threads by extending OS class thread. You can specify thread name, thread stack size and time slice (minimum run time before thread can be interrupted). Implement custom thread code inside run method. Start thread by calling start method, thread will be started and run will be called on thread selection that depends on scheduler.
